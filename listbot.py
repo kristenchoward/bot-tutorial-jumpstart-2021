@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 
 # What the bot will tweet
-tweet_list = ['Test tweet one', 'Test tweet two', 'Test tweet three']
+tweet_list = ['Continuing to test', 'another test tweet', 'tweet tweet tweet']
 
 # loop through the tweet_list and tweet each item
 for line in tweet_list: 
@@ -28,4 +28,4 @@ for line in tweet_list:
     print('Pausing...')
     time.sleep(5) # Pause for 5 seconds
 
-print("All done!")
+print("Big success!")
